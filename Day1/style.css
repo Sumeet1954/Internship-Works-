@@ -1,0 +1,33 @@
+body{
+    font-family:Okra,Helvetica,Sans-serif;
+    background-image: url(food.avif);
+    background-repeat: none;
+    background-size: cover;
+     overflow: auto;
+    height: 100vh;
+}
+#nav{
+    display: flex;
+    justify-content: end;
+    padding-right: 160px;
+}
+a{
+    margin: 2rem;
+    padding: 1rem;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+.body img,h1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 200px ;
+    height: 60px;
+}
+.body h1{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
