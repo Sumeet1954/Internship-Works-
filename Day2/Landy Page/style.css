@@ -23,7 +23,12 @@ header{
     font-weight: 100;
     text-decoration: none;
     color: #182189;
-    }
+}
+.nav-btn a:hover{
+    color: #FF8276;
+    text-decoration: #FF8276 wavy underline ;
+}
+
 .nav-btn button{
     margin: 10px 0 0;
     padding: 13px 0 ;
@@ -35,6 +40,10 @@ header{
     background-color: #182189;
     border: 1px ;
     border-radius: 4px;
+    box-shadow: 2px 2px 6px black;
+}
+.nav-btn button:hover{
+    background-color: #FF8276;
 }
 .row{
     margin: 0 34px;
@@ -55,6 +64,14 @@ header{
     color: rgb(24, 33, 109);
     margin: 24px 0 32px;
 }
+.row a{
+    text-decoration: none;
+    color: #182189;
+}
+.row a:hover{
+    color: #FF8276;
+    text-decoration: #FF8276 wavy underline ;
+}
 .col-5 img{
     height: 203px;
     margin-top: 30%;
@@ -65,4 +82,7 @@ header{
 }
 .mb-3{
     padding: 16px 20px;
+}
+.nav-btn img:hover{
+    transform: scale(1.12);
 }

@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landy Page</title>
+    <title>Landy - React Template</title>
+    <link rel="icon" href="assets/letter-z.png">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
@@ -14,12 +15,10 @@
             <img src="assets/logo.svg" alt="logo">
         </div>
         <div class="nav-btn">
-            <a href="#" style="font-weight: 200;">About</a>
-            <a href="#">Mission</a>
-            <a href="#">Product</a>
-            <button>
-                Contact
-            </button>
+            <a href="#" id="abt">About</a>
+            <a href="#" id="msn">Mission</a>
+            <a href="#" id="pdt">Product</a>
+            <button onclick="scrollToSection()">Contact</button>
         </div>
     </header></div>
 
@@ -52,7 +51,7 @@
     </section>
 
     <section>
-        <div class="container">
+        <div class="container" id="About">
             <div class="row">
                 <div class="col-5">
                     <img src="assets/graphs.svg" alt="img" style="margin-top: 30%;">
@@ -80,7 +79,7 @@
     </section>
 
     <section>
-        <div class="container">
+        <div class="container" id="Mission">
             <div class="row">
             <div class="col-5">
                 <h6>Ready made sections</h6>
@@ -94,7 +93,7 @@
     </section>
 
     <section>
-        <div class="container">
+        <div class="container" id="Product">
             <div class="row">
                 <div class="col-5">
                     <img src="assets/waving.svg" alt="wave">
@@ -108,7 +107,7 @@
     </section>
 
     <section>
-        <div class="container">
+        <div class="container" id="Contact">
             <div class="row">
                 <div class="col-5">
                     <h6>Contact form</h6>
@@ -133,33 +132,33 @@
         </div>
     </section>
 
-    <section>
+    <section style="background-color: #F1F2F3; width: 100%;">
         <div class="container">
-  <div class="row" style="background-color: #F1F2F3">
+  <div class="row" >
     <div class="col text-align-start">
       <h4>Contact</h4>
-      <a>Tell us Everything</a>
+      <a href="#" >Tell us Everything</a>
       <div>Do you have any question? Feel free to reach out.</div>
       <p style="font-size: 21px; text-decoration: underline;">Let's Chat</p>
     </div>
     <div class="col order-1">
       <h4>Policy</h4>
       <ul style="list-style: none;">
-        <li><a>Application Security</a></li>
-        <li><a>Software principles</a></li>
+        <li><a href="#">Application Security</a></li>
+        <li><a href="#">Software principles</a></li>
         </ul>
     </div>
     <div class="col order-5">
         <ul style="list-style: none;">
-        <li><a>Support Center</a></li>
-        <li><a>Customer Support</a></li>
+        <li><a href="#">Support Center</a></li>
+        <li><a href="#">Customer Support</a></li>
         </ul>
     </div>
   </div>
 </div>
 
-     <div class="container">
-  <div class="row" style="background-color: #F1F2F3">
+     <div class="container" >
+  <div class="row">
     <div class="col text-align-start">
       <h4>Address</h4>
       <div>Rancho Santa Margarita</div>
@@ -169,10 +168,10 @@
     <div class="col order-1">
       <h4>Company</h4>
       <ul style="list-style: none;">
-        <li><a> About</a></li>
-        <li><a> Blog </a></li>
-        <li><a> Press</a></li>
-        <li><a> Career and Culture</a></li>
+        <li><a href="#"> About</a></li>
+        <li><a href="#"> Blog </a></li>
+        <li><a href="#"> Press</a></li>
+        <li><a href="#"> Career and Culture</a></li>
         </ul>
     </div>
     <div class="col order-5">
@@ -187,7 +186,7 @@
 
     </section>
 
-    <footer style="margin: 0 34px; padding: 0 30px;">
+    <footer style=" padding: 0 0 32px; background-color: #F1F2F3; width: 100%">
         <div class="container" style ="padding: 0 0 32px;">
     <header class="nav-bar" style="padding: 48px 0 0;">
         <div class="logo">
@@ -195,12 +194,15 @@
         </div>
         <div class="nav-btn">
             <a href="#"><img src="assets/github.svg" style="height: 25px ;width: 25px;"></a>
-            <a href="#"><img src="assets/linkedin.svg" style="height: 25px ;width: 25px;"></a>
-            <a href="#"><img src="assets/medium.svg" style="height: 25px ; width:25px;"></a>
+            <a href="#"><img src="assets/twitter.svg" style="height: 25px ;width: 25px;"></a>
+            <a href="#"><img src="assets/linkedin.svg" style="height: 25px ; width:25px;"></a>
+             <a href="#"><img src="assets/medium.svg" style="height: 25px ; width:25px;"></a>
             <a href="#"><img src="assets/kofi3.webp" style="height: 36px ; width: 143px;"></a>
         </div>
     </header></div>
     </footer>
+  
 </body>
+<script src="app.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </html>
