@@ -15,11 +15,12 @@ function App() {
                 that benefit both your company and your contractar"/>
     <Sec2/>
     <Sec1 btn="  How it works " h3="A Step-by-Step Guide to Our Platform" para=" Explore our platform with ease! Sign up, Select your industry , and seemlessly integrate our tailored payment solutions."/>
-    <Hero h6="Experience AccuPay" h3="We've got everything you need?" para="We save you from all that boring paperwork! From global hiring, to instant payments, and taxes, we've got your back." img_src="/images/contact_illus.png"/> 
+   
     <Mid para=" Your dependable guide to achieving freedom from manual HR work
               and building that perfect workplace you have always aspired to
               build. Your dependable guide to achieving freedom."/>
     <SectionCard />
+     <Hero h6="Experience AccuPay" h3="We've got everything you need?" para="We save you from all that boring paperwork! From global hiring, to instant payments, and taxes, we've got your back." img_src="/images/contact_illus.png"/> 
     <Footer/>
     </>
   );
