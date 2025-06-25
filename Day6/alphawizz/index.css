@@ -1,6 +1,7 @@
 html,body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     font-family: 'Segoe UI', sans-serif;
 }
 .Nav-sec ,.Hero-sec{
@@ -29,6 +30,24 @@ html,body{
     color: black;
     font-weight: bold;
     font-size: 14px;
+}
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .logo,
+  .nav-items {
+    margin: 5px 0;
+  }
+
+  .nav-items a {
+    display: block;
+    margin: 4px 0;
+  }
 }
 
 
@@ -82,6 +101,24 @@ html,body{
     color: #005151;
 }
 
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Hero-sec .pic img {
+    width: 100%;
+    position: static;
+    height: auto;
+  }
+
+  .Hero-sec h3 {
+    font-size: 32px;
+    text-align: center;
+  }
+}
+
 /* Section 1 */
 
 .sec-1{
@@ -103,6 +140,16 @@ html,body{
 }
 .sec-1 p{
     font-size: 10px;
+}
+
+@media (max-width: 768px) {
+  .sec-1 {
+    flex-direction: column;
+  }
+
+  .sec-1 h3 {
+    font-size: 28px;
+  }
 }
 
 /* Section 2 */
@@ -143,6 +190,18 @@ html,body{
     border-radius: 50%;
   }
 
+  @media (max-width: 768px) {
+  .sec-2 {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .item1 img {
+    width: 100%;
+    height: auto;
+  }
+}
+
   /* Card Section */
   .card-cnt{
     background-color: #fff;
@@ -179,6 +238,19 @@ html,body{
     width: 1450px;
 }
 
+@media (max-width: 768px) {
+  .mid-sec {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .mid-head {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
 /* Small Cards */
 .small-card{
 text-align: center;
@@ -197,6 +269,74 @@ text-align: center;
 .bottom-sec-row{
     display: flex;
     justify-content: center;
-    margin-bottom :40px; ;
-    
+    margin-bottom :40px; ;    
+}
+
+@media (max-width: 992px) {
+  .bottom-sec {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+/* Footer Styles */
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+}
+.box-1{
+    width: 33%;
+    text-align: start;
+    padding: 2px;
+}
+.box-1-img img{
+    height: 40px;
+    padding: 10px;
+}
+.box-1-para{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.box-2{
+    width: 33%;
+    text-align: start;
+}
+.box-2-hd{
+    padding-left: 10px;
+}
+.box-2-hd span{
+    text-decoration: solid blue underline;
+}
+.box-2-ul li{
+    padding: 4px;
+    list-style: none;
+    font-weight: 300;
+}
+.box-3{
+    width: 33%;
+    text-align: start;
+}
+.box-3-ul li{
+     padding: 4px;
+    list-style: none;
+    font-weight: 300;
+}
+.end-text{
+    padding: 40px 20px 0 40px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .box-1, .box-2, .box-3 {
+    width: 100%;
+    padding: 10px 0;
+  }
 }
