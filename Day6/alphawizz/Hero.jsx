@@ -1,6 +1,6 @@
 import './index.css';
 
-function Hero({h6,h3,h3_1,span,para,btn_1,btn_2,img_src}) {
+function Hero({h6,h3,h3_1,span,para,btn_1,btn_2,img_src,styl}) {
   return (
     <>
         <section className="Hero-sec">
@@ -14,7 +14,7 @@ function Hero({h6,h3,h3_1,span,para,btn_1,btn_2,img_src}) {
               </h3>
               <p>{para}
               </p>
-              <button id="btn-1" className="button">{btn_1}
+              <button id={styl} className="button" style={{backgroundColor:'#ffbf3f'}}>{btn_1}
               </button>
               <button id="btn-2" className="button">
                 <a href="/">{btn_2}</a>
