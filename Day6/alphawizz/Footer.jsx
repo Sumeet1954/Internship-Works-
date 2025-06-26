@@ -28,7 +28,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='box-3'>
-                    <div className='box-3-hd'><h4>Get In Touch</h4></div>
+                    <div className='box-3-hd'><h4><span>Get</span> In Touch</h4></div>
                     <div className='box-3-ul'>
                         <ul>
                             <li>info@mail.com</li>

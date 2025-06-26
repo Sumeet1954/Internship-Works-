@@ -9,7 +9,7 @@ function App() {
   return (
     <>
     <Nav/>
-    <Hero h6="EFFICIENCY PAYROLL AND WORKFORCE MASTERY" h3=" We Make" h3_1= "Painless." span="Payroll" para="We get your employee paid while providing online access to
+    <Hero h6="EFFICIENCY PAYROLL AND WORKFORCE MASTERY" h3=" We Make " h3_1= " Painless. " span="Payroll" para="We get your employee paid while providing online access to
                 paystubs,tax reports and payroll tax filings" btn_1=" Get Started" btn_2="Learn More" img_src="/images/hero_illus.png"/>
     <Sec1 btn="Solutions" h3="The global payroll solution" para="When it comes to payroll solutions, we have a variety of options
                 that benefit both your company and your contractar"/>

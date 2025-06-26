@@ -3,7 +3,7 @@ import "./index.css";
 function Nav() {
   return (
     <>
-      <div className="Nav-sec">
+      <div className="Nav-sec Hero-sec">
         <div className="nav-bar">
           <div className="logo">
             <img src="/images/logo.png"></img>

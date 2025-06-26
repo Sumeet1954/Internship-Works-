@@ -1,16 +1,18 @@
 import React from "react";
 import "./index.css";
 
-const SmallCard = ({title,icon,bg_style}) => {
+const SmallCard = ({title,icon,}) => {
   return (
     <>
        <div className="small-card">
-       <div className={bg_style}>
+       <div>
         <div><img src={icon}></img>
         <p>{title}</p>
         </div>
-        <div>
-        <span>→</span>
+        <div className="small-card-icn">
+        <span>
+          <img src="/images/right-arrow.png"></img>
+        </span>
        </div>
        </div>
        </div>
