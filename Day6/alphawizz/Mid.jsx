@@ -9,7 +9,7 @@ function Mid({ para }) {
         <div className="mid-sec">
         <div className="mid-head">
           <div>
-            <Sec1 btn="Why Accupay" h3="A platform for your global team" />
+            <Sec1 btn="Why Accupay" h3="A platform for your global team" id="btn-3-3"/>
           </div>
           <div className="mid-para">
             <p>

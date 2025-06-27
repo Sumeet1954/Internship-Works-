@@ -2,7 +2,6 @@ import "./index.css";
 import Sec1 from "./Sec1";
 import SmallCard from "./SmallCard";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-
 const SectionCard = () => (
   <>
     <div class="sec-cards">
@@ -11,7 +10,7 @@ const SectionCard = () => (
           btn="Integrations"
           h3="All in One Place All in Sync."
           para="Experience seamless coordination with our comprehensive services. From accounting to payroll, we bring everything together in one place"
-        />
+          id="btn-3"/>
       </div>
       <div class="div2">
         <SmallCard icon="/images/coin.png" title="Payment Gateways" />

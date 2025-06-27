@@ -6,12 +6,12 @@ const SmallCard = ({title,icon,}) => {
     <>
        <div className="small-card">
        <div>
-        <div><img src={icon}></img>
+        <div className="small-card-img-icon"><img src={icon}></img>
         <p>{title}</p>
         </div>
         <div className="small-card-icn">
         <span>
-          <img src="/images/right-arrow.png"></img>
+          <img src="/images/right-arrow.png" id="small-card-icon"></img>
         </span>
        </div>
        </div>

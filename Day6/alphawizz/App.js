@@ -12,9 +12,9 @@ function App() {
     <Hero h6="EFFICIENCY PAYROLL AND WORKFORCE MASTERY" h3=" We Make " h3_1= " Painless. " span="Payroll" para="We get your employee paid while providing online access to
                 paystubs,tax reports and payroll tax filings" btn_1=" Get Started" btn_2="Learn More" img_src="/images/hero_illus.png" />
     <Sec1 btn="Solutions" h3="The global payroll solution" para="When it comes to payroll solutions, we have a variety of options
-                that benefit both your company and your contractar"/>
+                that benefit both your company and your contractar" id="btn-3"/>
     <Sec2/>
-    <Sec1 btn="  How it works " h3="A Step-by-Step Guide to Our Platform" para=" Explore our platform with ease! Sign up, Select your industry , and seemlessly integrate our tailored payment solutions."/>
+    <Sec1 btn="  How it works " h3="A Step-by-Step Guide to Our Platform" para=" Explore our platform with ease! Sign up, Select your industry , and seemlessly integrate our tailored payment solutions." id="btn-3"/>
    
     <Mid para=" Your dependable guide to achieving freedom from manual HR work
               and building that perfect workplace you have always aspired to
