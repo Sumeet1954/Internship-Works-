@@ -1,0 +1,18 @@
+.footer{
+    background-color: aqua;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+.footer-content li{
+    list-style: none;
+}
+.div-ft{
+    display: flex;
+    flex-direction: column;
+        justify-content: start;
+    align-items: center;
+    margin: 20px 0;
+}
