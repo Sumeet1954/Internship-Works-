@@ -1,8 +1,12 @@
 .section2 {
   padding: 150px 0;
   text-align: center;
-  height: 100vh;
+  height: auto;
   background-color: #FFF1F2;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
 }
 .container h2{
     font-size: 60px;
@@ -26,13 +30,6 @@
   align-items: center;
   justify-content: center;
 }
-/* .custom-card-3 {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  align-items: center;
-  justify-content: center;
-} */
 .Card {
   display: flex;
   flex-direction: column;
@@ -51,9 +48,15 @@
   font-size: 18px;
   color: #596378;
 }
-.custom-card-2 img {
+.custom-card-2 img{
   width: 100%;
   height: auto;
   mix-blend-mode: darken;
   object-fit: contain;
+}
+@media (max-width: 992px) {
+.custom-card-container {
+    flex-direction: column;
+}
+
 }

@@ -2,7 +2,7 @@
   padding: 150px 15px;
   margin: 0 105px;
   text-align: center;
-  height: 100vh;
+  height: auto;
 }
 
 .container-s4 img{
@@ -17,9 +17,9 @@
 }
 .custom-card-1-s4{
   display: flex;
-   width: 100%; 
-   gap: 10px;
-   margin: 50px 0 0 ;
+  justify-content: center;
+   gap: 20px;
+   margin-top: 50px;
 
 }
 .Card-s4{
@@ -27,12 +27,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  justify-content: center;
   border: 3px solid #fee2e2;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.12);
   padding: 20px;
+  height: auto;
 }
 .Card-s4 img {
   width: 101.59px;
@@ -49,3 +49,9 @@
     color: #596378;
     margin: 15px 0 0 ;
 }
+@media (max-width: 768px) {
+  .Card-s4{
+    width: 100%;
+    padding: 0;
+  }
+ }
